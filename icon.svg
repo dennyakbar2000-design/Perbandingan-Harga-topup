@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="glow" cx="70%" cy="10%" r="80%">
+      <stop offset="0" stop-color="#2fa8ff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#2fa8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#050a1a"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <!-- Isi di dalam zona aman ikon maskable (lingkaran 80%). -->
+  <rect x="136" y="236" width="56" height="120" rx="12" fill="#ff8a5c"/>
+  <rect x="228" y="196" width="56" height="160" rx="12" fill="#2fa8ff"/>
+  <rect x="320" y="286" width="56" height="70" rx="12" fill="#3ddc97"/>
+  <text x="256" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="88" fill="#e8f0ff">Rp</text>
+  <rect x="128" y="372" width="256" height="10" rx="5" fill="#1c2c58"/>
+</svg>
